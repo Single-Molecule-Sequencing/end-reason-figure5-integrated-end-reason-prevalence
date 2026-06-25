@@ -1,0 +1,147 @@
+{
+  "generated_from": "1_experiment/tables/fig4_full_raw_experiment_table.csv",
+  "criteria": "raw_status == raw_unavailable",
+  "run_count": 14,
+  "runs": [
+    {
+      "run_id": "ER06",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/gregfar/SMS/SMS_POP_data/Single_MOlecule_Species_Eco53KI/2925_PvuII_0_5uL_25fmol/20250515_1055_MN48328_AZL258_4956feb0/pod5",
+      "raw_format": "pod5",
+      "reads_total": 1279857,
+      "source_before_rerun": "catalogue_full_n",
+      "notes": "catalogue_full_n: full-N count from catalogue (1,279,857 reads). Raw POD5/FAST5 not accessible from this workstation \u2014 requires GL with Turbo mount for pod5_full_n_refill upgrade. Not estimate-only; already full-N."
+    },
+    {
+      "run_id": "ER09",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/sequencing_data/data_from_linux_desktop_lab/rapid_barcode_plasmid_24/IF_CZ_July3_initialGGexperiment/20250703_1644_MD-100098_FBB32599_55664064/pod5_pass/barcode01",
+      "raw_format": "pod5",
+      "reads_total": 11475574,
+      "source_before_rerun": "seqsum_full_n",
+      "notes": "seqsum_full_n: full-N count from sequencing summary (11,475,574 reads). Raw POD5 not accessible from this workstation. Not estimate-only; already full-N."
+    },
+    {
+      "run_id": "ER12",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/sequencing_data/data_from_linux_desktop_lab/WGS_LSK_human/greg_DNA_sample3_NS_jul13/20250713_2118_MD-102066_FBD19495_6395e55e/pod5",
+      "raw_format": "pod5",
+      "reads_total": 200128,
+      "source_before_rerun": "seqsum_full_n",
+      "notes": "seqsum_full_n: full-N count from sequencing summary (200,128 reads). Not estimate-only; already full-N."
+    },
+    {
+      "run_id": "ER13",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/sequencing_data/data_from_linux_desktop_lab/Fall2025/AGC/14136-CZ-1/20250805_1124_1E_PBE95110_a36d5ac5/pod5",
+      "raw_format": "pod5",
+      "reads_total": 965659,
+      "source_before_rerun": "seqsum_full_n",
+      "notes": "seqsum_full_n: full-N count (965,659 reads). Not estimate-only; already full-N."
+    },
+    {
+      "run_id": "ER14",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/sequencing_data/data_from_linux_desktop_lab/Fall2025/081920205_IF_Pilot_SMA_seq/no_sample_id/20250819_2057_MD-102066_FBD65978_f6ad7dd5/pod5_pass/V016",
+      "raw_format": "pod5",
+      "reads_total": 5147265,
+      "source_before_rerun": "seqsum_full_n",
+      "notes": "seqsum_full_n: full-N count (5,147,265 reads). Not estimate-only; already full-N."
+    },
+    {
+      "run_id": "ER15",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/sequencing_data/data_from_linux_desktop_lab/Fall2025/11242025_IF_Part4_CIP_Treated_SMA_seq/no_sample_id/20251124_2039_MD-101527_FBD68976_9f9f4bc1/pod5_pass/V04_3",
+      "raw_format": "pod5",
+      "reads_total": 707,
+      "source_before_rerun": "full_n_below_cap",
+      "notes": "full_n_below_cap: 707 reads total \u2014 tiny run, all reads counted. Not estimate-only."
+    },
+    {
+      "run_id": "ER17",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/gregfar/SMS/SMS_POP_data/Single_MOlecule_Species_Eco53KI/2925_100fmol_2uL_no2ndRE/20250515_0914_MD-101527_AZF074_f2c046fe/pod5",
+      "raw_format": "pod5",
+      "reads_total": 872600,
+      "source_before_rerun": "catalogue_full_n",
+      "notes": "catalogue_full_n: full-N count from catalogue (872,600 reads). Not estimate-only; already full-N."
+    },
+    {
+      "run_id": "ER18",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/sequencing_data/data_from_linux_desktop_lab/20260129_IF_GG_Part5_Odd/20260129_IF_SMAseq_Ggallphos_extended_1/20260129_2152_MD-101527_FBD70599_9621d647/pod5_pass/mixed",
+      "raw_format": "pod5",
+      "reads_total": 1847,
+      "source_before_rerun": "full_n_below_cap",
+      "notes": "full_n_below_cap: 1,847 reads \u2014 tiny run, all reads counted. Not estimate-only."
+    },
+    {
+      "run_id": "ER19",
+      "cohort": "internal",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "/nfs/turbo/umms-atheylab/Migration_data_backup/data1/CYP2D7_Level_2_rapid_barcode/first_run/20260423_1659_MD-101527_FBD64710_7c5452b3/pod5_pass/barcode19",
+      "raw_format": "pod5",
+      "reads_total": 1,
+      "source_before_rerun": "full_n_below_cap",
+      "notes": "full_n_below_cap: 1 read \u2014 single-read run. Not estimate-only."
+    },
+    {
+      "run_id": "PAW53533",
+      "cohort": "external",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "",
+      "raw_format": "",
+      "reads_total": 275,
+      "source_before_rerun": "(blank)",
+      "notes": "In ont-open-data/compost_mgx_2026.04/raw/20240723_1746_4B_PAW53533_f802c0cd/; no sequencing_summary files in bucket; POD5 full download is ~603 GB \u2014 infeasible locally. Requires GL scratch for pod5_full_n recount."
+    },
+    {
+      "run_id": "PAW91996",
+      "cohort": "external",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "",
+      "raw_format": "",
+      "reads_total": 1692,
+      "source_before_rerun": "(blank)",
+      "notes": "In ont-open-data/compost_mgx_2026.04; no sequencing_summary; POD5 full download infeasible locally. Requires GL."
+    },
+    {
+      "run_id": "PAW97819",
+      "cohort": "external",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "",
+      "raw_format": "",
+      "reads_total": 1048,
+      "source_before_rerun": "(blank)",
+      "notes": "In ont-open-data/compost_mgx_2026.04; no sequencing_summary; POD5 full download infeasible locally. Requires GL."
+    },
+    {
+      "run_id": "PBC16207",
+      "cohort": "external",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "",
+      "raw_format": "",
+      "reads_total": 19787,
+      "source_before_rerun": "(blank)",
+      "notes": "In ont-open-data/sc_gemx_2025.02/raw/seq_sum/293t/293t_1_1_long/; sequencing_summary is 58 GB \u2014 infeasible to download locally. Requires GL scratch for full seqsum parse."
+    },
+    {
+      "run_id": "FBB34001",
+      "cohort": "external",
+      "raw_status": "raw_unavailable",
+      "raw_uri": "",
+      "raw_format": "",
+      "reads_total": 40873,
+      "source_before_rerun": "pod5_subsample",
+      "notes": "pod5_subsample: counted from a single POD5 file (40,873 reads) from Zenodo 18889583. Full dataset download from Zenodo is feasible but requires significant time. Current count is a valid but partial sample."
+    }
+  ]
+}

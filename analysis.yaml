@@ -1,0 +1,39 @@
+id: analysis-end-reason-figure5-integrated-end-reason-prevalence
+title: Figure 5 integrated end-reason prevalence (Great Lakes recount companion)
+status: active
+maturity_tier: 3
+experiments:
+  - ER01
+  - ER02
+  - ER03
+  - ER04
+  - ER05
+  - ER06
+  - ER07
+  - ER08
+  - ER09
+  - ER10
+  - ER11
+  - ER12
+  - ER13
+  - ER14
+  - ER15
+  - ER16
+  - ER17
+  - ER18
+  - ER19
+  - ER20
+  - ER21
+  - ER22
+  - ER23
+  - ER24
+  - ER25
+  - ER26
+  - ER27
+  - ER28
+topics:
+  - ont
+  - end-reason
+  - prevalence
+  - provenance
+harvested_by: []

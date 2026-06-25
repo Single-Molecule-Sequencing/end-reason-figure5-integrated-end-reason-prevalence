@@ -1,0 +1,2 @@
+{"run":"bootstrap","status":"ok","details":"Repo scaffolded and tables deposited from source paper repo."}
+{"run": "render_figure5_prevalence", "status": "ok", "timestamp_utc": "2026-06-25T20:47:12Z", "script": "2_analysis/render_figure5_prevalence.py", "outputs": ["3_results/figures/figure5_integrated_end_reason_prevalence.pdf", "3_results/figures/figure5_integrated_end_reason_prevalence.png"]}

@@ -1,0 +1,5 @@
+label,n_runs,called_reads,non_signal_positive,non_signal_positive_pct,unblock_mux_change,unblock_mux_change_among_non_signal_pct,mux_change,mux_change_among_non_signal_pct,signal_negative,signal_negative_among_non_signal_pct,analysis_config_change,analysis_config_change_among_non_signal_pct,data_service_unblock_mux_change,data_service_unblock_mux_change_among_non_signal_pct,other,other_among_non_signal_pct
+All selected runs,20,573675,18426,3.2119231272061706,15621,84.77694562031911,1910,10.365787474221209,866,4.699880603495061,22,0.11939650493867361,7,0.0379897970259416,0,0.0
+POD5 runs,17,477675,6512,1.3632700057570524,5178,79.51474201474201,493,7.570638820638821,812,12.469287469287469,22,0.33783783783783783,7,0.1074938574938575,0,0.0
+FAST5 runs,3,96000,11914,12.410416666666666,10443,87.653181131442,1417,11.893570589222763,54,0.45324827933523587,0,0.0,0,0.0,0,0.0
+Legacy Q20 Cliveome ER01,1,32000,9580,29.9375,8291,86.54488517745303,1279,13.350730688935283,10,0.10438413361169102,0,0.0,0,0.0,0,0.0

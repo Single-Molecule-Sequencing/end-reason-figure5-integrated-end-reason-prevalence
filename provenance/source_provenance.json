@@ -1,0 +1,21 @@
+{
+  "source_repo_path": "/home/AtheyLab/agent-jobs/end-reason-fig4-recount/end_reason_6_5_26",
+  "source_inputs": [
+    "data/derived/fig4_prevalence/fig4_full_raw_experiment_table.csv",
+    "data/derived/fig4_prevalence/fig4_run_level_summary.csv",
+    "data/derived/fig4_prevalence/fig4_stratum_summary.csv",
+    "data/derived/fig4_prevalence/fig4_non_signal_composition.csv",
+    "data/derived/fig4_prevalence/fig4_sensitivity_summary.csv",
+    "data/derived/fig4_prevalence/fig4_catalogue_comparison.csv",
+    "figures_src/fig4_prevalence_render.py",
+    "manuscript/figures/fig4_prevalence.pdf",
+    "manuscript/figures/fig4_prevalence.png"
+  ],
+  "notes": "Styling and layout preserved from fig4_prevalence_render.py; data/provenance updated for integrated Figure 5 companion repo.",
+  "source_commit": "efc0779a6a7efe5e15619532ea0b140cbbee6365",
+  "source_script_copied": "provenance/source_assets/fig4_prevalence_render.py",
+  "source_figures_copied": [
+    "provenance/source_assets/fig4_prevalence.pdf",
+    "provenance/source_assets/fig4_prevalence.png"
+  ]
+}
