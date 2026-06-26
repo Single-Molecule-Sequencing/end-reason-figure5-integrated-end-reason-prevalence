@@ -1,5 +1,8 @@
 # end-reason-figure5-integrated-end-reason-prevalence
 
+> 📄 Companion repository for the **End Reason** Data Descriptor — canonical manuscript: [Single-Molecule-Sequencing/end_reason_6_5_26](https://github.com/Single-Molecule-Sequencing/end_reason_6_5_26).
+
+
 Companion analysis repo for Figure 5 integrated end-reason prevalence, rebuilt from deposited Great Lakes recount outputs.
 
 ## Layout
