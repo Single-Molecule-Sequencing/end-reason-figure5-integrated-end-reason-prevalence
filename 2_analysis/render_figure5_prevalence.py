@@ -24,6 +24,9 @@ PALETTE = {
 STACK_IDS = ['umc', 'sn', 'mc', 'dsumc']
 BAR_W = 0.34
 GAP = 0.07
+LEGEND_NCOL = 6
+LEGEND_FONT_SIZE = 11
+LEGEND_BOTTOM_MARGIN = 0.18
 
 CLASS_LABELS = {
     'umc': 'Unblock/mux change',
@@ -238,12 +241,13 @@ def main():
                                   label='Internal (Athey Lab) — solid edge'))
     handles.append(mpatches.Patch(facecolor='white', edgecolor='#b45309', lw=1.4, linestyle='--',
                                   label='External (public archives) — dashed edge'))
-    fig.legend(handles=handles, loc='lower center', ncol=3, frameon=False, fontsize=10,
-               bbox_to_anchor=(0.5, 0.005))
+    fig.legend(handles=handles, loc='lower center', ncol=LEGEND_NCOL, frameon=False,
+               fontsize=LEGEND_FONT_SIZE, columnspacing=1.45, handlelength=1.8,
+               bbox_to_anchor=(0.5, 0.025))
 
     fig.suptitle('Non-signal-positive end-reason composition by hardware',
                  fontsize=15.5, fontweight='700', y=0.985)
-    plt.tight_layout(rect=[0.01, 0.12, 1, 0.94])
+    plt.tight_layout(rect=[0.01, LEGEND_BOTTOM_MARGIN, 1, 0.94])
 
     out_pdf = OUT_DIR / 'figure5_integrated_end_reason_prevalence.pdf'
     out_png = OUT_DIR / 'figure5_integrated_end_reason_prevalence.png'
